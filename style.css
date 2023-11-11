@@ -88,7 +88,7 @@ a.active, a:hover{
     }
     .first-section, .second-section, .third-section, .fourth-section{
         margin-top: 6rem;
-        margin: 3rem;
+        margin: 4rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -111,7 +111,7 @@ a.active, a:hover{
         border-radius: 8px;
         font-weight: bold;
     }
-    .first-section img{
+    .first-section img, .second-section img{
         margin: 1rem;
     }
     .second-section h3{
@@ -153,4 +153,35 @@ a.active, a:hover{
         margin-left: 7rem;
         cursor: pointer;
     }
+    .fourth-section h3{
+        font-size: 2rem;
+        position: relative;
+
+    }
+    .fourth-section p{
+        color: rgba(0, 0, 0, 0.46);
+        margin-top: 1rem;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        position: relative;
+
+    }
+    .fourth-section a{
+        color: #fff;
+        background-color: #FC8621;
+        padding: .6rem;
+        border-radius: 8px;
+        font-weight: bold;
+        position: relative;
+        top: 0;
+    }
+    .fourth-section img{
+        margin-top: -5rem;
+        margin-left: 2rem;
+        width: 100%;
+    }
+    .picPic{
+        width: 5rem;
+    }
+
 }
